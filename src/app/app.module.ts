@@ -14,7 +14,7 @@ import { OrderComponent } from './order/order.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [orderService],
   bootstrap: [OrderComponent]
 })
 export class AppModule { }
